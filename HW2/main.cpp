@@ -73,8 +73,8 @@ int main(){
         
         //output sine wave
         Aout = 0.5*sin(2*3.14*fre*t)+0.5;
-        t = t + 0.0001;
-        wait(0.0001);
+        t = t + 0.00025;
+        wait(0.00025);
         }
     }
 
